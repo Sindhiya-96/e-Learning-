@@ -1,0 +1,45 @@
+
+<head> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+  rel="stylesheet"
+/>
+</head>
+
+<!--<ul [ngClass]="style">
+ <li > <a href="">HOME </a>   </li>
+  <li > <a href="">COURSE </a>   </li>
+  <li > <a href="">BLOG </a>   </li>
+  <li > <a href="">CONTACT</a></li>
+  <li > <a href="">LOGIN</a>   </li>
+  <p style="text-align: right;color: #fff;font-size:  20px; font-family: Verdana, Geneva, Tahoma, sans-serif;"> <b><em>BS</em> e-learning</b></p>
+ 
+<li><a [routerLink]="['home']">HOME</a></li>
+          <li><a [routerLink]="['courses']">COURSES</a></li>
+          <li><a [routerLink]="['blog']">BLOG</a></li>
+          <li><a [routerLink]="['contact']">CONTACT US</a></li>
+          <li><a [routerLink]="['login']">LOGIN</a></li>
+          
+</ul>
+<div>
+  <img [ngClass]="bgImage"  src="https://mobidev.biz/wp-content/uploads/2020/01/machine-learning-consulting-company.png" >
+ <div [ngClass]="'centered'"> <p style="text-align: right;color: #fff;font-size:  50px; font-family: Verdana, Geneva, Tahoma, sans-serif;"> <b><em>BS</em> e-learning</b></p>
+ </div>
+</div>-->
+<mat-toolbar color="primary" style="font-weight: bold;">
+  <span><em style="color:#00bfff;">BS&nbsp;&nbsp;</em>e-learning</span>
+  <div class="spacer"></div>
+   <a mat-button routerLink="/home" style="font-weight: bold;">HOME</a>
+   <a mat-button routerLink="/courses" style="font-weight: bold;">COURSES</a>
+   <a mat-button routerLink="/blog" style="font-weight: bold;">BLOG</a>
+   <a mat-button routerLink="/contact" style="font-weight: bold;">CONTACT US</a>
+   <a mat-button routerLink="/login" style="font-weight: bold;">LOGIN</a>
+ </mat-toolbar>
+ 
+ 
+
+
+<router-outlet></router-outlet>
